@@ -139,8 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="00-回溯法一般解法.cpp" />
     <ClCompile Include="17-电话号码的字母组合.cpp" />
     <ClCompile Include="39-组合总和.cpp" />
+    <ClCompile Include="433-最小基因变化.cpp" />
+    <ClCompile Include="491-递增子序列.cpp" />
     <ClCompile Include="无重复的全排列.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

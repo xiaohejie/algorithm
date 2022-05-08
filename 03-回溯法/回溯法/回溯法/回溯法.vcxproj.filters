@@ -24,5 +24,14 @@
     <ClCompile Include="无重复的全排列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="491-递增子序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="433-最小基因变化.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="00-回溯法一般解法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
