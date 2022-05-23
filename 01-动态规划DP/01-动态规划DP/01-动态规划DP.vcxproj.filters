@@ -30,5 +30,14 @@
     <ClCompile Include="64-最小路径和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="00-动态规划一般解法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38-外观数列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="980-不同路径III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

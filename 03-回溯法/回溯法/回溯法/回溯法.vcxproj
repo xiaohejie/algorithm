@@ -140,10 +140,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="00-回溯法一般解法.cpp" />
+    <ClCompile Include="1254-统计封闭岛屿的数目.cpp" />
     <ClCompile Include="17-电话号码的字母组合.cpp" />
+    <ClCompile Include="1905-统计子岛屿.cpp" />
+    <ClCompile Include="200-岛屿数量.cpp" />
     <ClCompile Include="39-组合总和.cpp" />
+    <ClCompile Include="417-太平洋大西洋水流问题.cpp" />
     <ClCompile Include="433-最小基因变化.cpp" />
+    <ClCompile Include="46-全排列.cpp" />
+    <ClCompile Include="47-全排列.cpp" />
     <ClCompile Include="491-递增子序列.cpp" />
+    <ClCompile Include="51-N皇后问题.cpp" />
+    <ClCompile Include="694-不同的岛屿的数量.cpp" />
+    <ClCompile Include="695-最大的岛屿面积.cpp" />
+    <ClCompile Include="77-组合.cpp" />
+    <ClCompile Include="78-子集.cpp" />
+    <ClCompile Include="797. 所有可能的路径.cpp" />
+    <ClCompile Include="90-子集II.cpp" />
     <ClCompile Include="无重复的全排列.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

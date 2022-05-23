@@ -1,8 +1,11 @@
-//#include"归并排序.h"
 #include<vector>
 #include<iostream>
 using namespace std;
-
+/*
+	归并排序：
+		将待排序的数组一分为二，然后递归再分，分到不能再分之后，
+		用left和right装起来，再进行排序
+*/
 void merge(int* a, int L, int R, int M) {
 	vector<int> left;
 	vector<int> right;
@@ -44,12 +47,14 @@ void merge(int* a, int L, int R, int M) {
 		n++;
 	}
 }
+
 void mergeSort(int* a, int L, int R) {
 	if (L == R) {
 		return;
 	}
 	else {
 		int M = (L + R) / 2;
+		//递归
 		mergeSort(a, L, M);
 		mergeSort(a, M + 1, R);
 		merge(a, L, R, M + 1);

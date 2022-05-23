@@ -139,11 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="00-动态规划一般解法.cpp" />
     <ClCompile Include="01.cpp" />
     <ClCompile Include="02.cpp" />
     <ClCompile Include="03-买卖股票的最佳时机.cpp" />
     <ClCompile Include="04-不同路径.cpp" />
+    <ClCompile Include="38-外观数列.cpp" />
     <ClCompile Include="64-最小路径和.cpp" />
+    <ClCompile Include="980-不同路径III.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

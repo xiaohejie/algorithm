@@ -6,8 +6,11 @@ using namespace std;
 		从第一个开始到最后一个，进行上述排序
 */
 void intsert(int* arr, int n) {
+	//假设前n-1个已经排好序
+	//对第n个数进行排序
 	int key = arr[n];
 	int i = n;
+	//从最后一个数即第n-1个数开始比较
 	while (key < arr[i - 1]) {
 		arr[i] = arr[i - 1];
 		i--;
@@ -19,6 +22,7 @@ void intsert(int* arr, int n) {
 }
 void insertSort(int* arr, int n) {
 	int i = 1;
+	//从第二个数开始比较
 	while(i < n){
 		intsert(arr, i);
 		i++;

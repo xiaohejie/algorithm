@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="归并排序.h">
-      <Filter>头文件</Filter>
-    </ClCompile>
     <ClCompile Include="归并排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

@@ -33,5 +33,44 @@
     <ClCompile Include="00-回溯法一般解法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="797. 所有可能的路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47-全排列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="51-N皇后问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="78-子集.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="90-子集II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="417-太平洋大西洋水流问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="694-不同的岛屿的数量.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="200-岛屿数量.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="695-最大的岛屿面积.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1254-统计封闭岛屿的数目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1905-统计子岛屿.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46-全排列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="77-组合.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -142,7 +142,6 @@
     <ClCompile Include="qsort和bsearch.cpp" />
     <ClCompile Include="堆排序.cpp" />
     <ClCompile Include="归并排序.cpp" />
-    <ClCompile Include="归并排序.h" />
     <ClCompile Include="插入排序.cpp" />
     <ClCompile Include="选择排序.cpp" />
   </ItemGroup>

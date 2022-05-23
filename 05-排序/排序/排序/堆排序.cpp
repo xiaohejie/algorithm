@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
-
+/*
+	堆排序：
+		主要是针对树
+*/
 void heapify(int* tree, int n, int i) {
 	if (i >= n) {
 		return;
