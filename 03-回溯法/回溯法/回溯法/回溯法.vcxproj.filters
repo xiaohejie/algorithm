@@ -72,5 +72,11 @@
     <ClCompile Include="77-组合.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="22-括号生成.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="473. 火柴拼正方形.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

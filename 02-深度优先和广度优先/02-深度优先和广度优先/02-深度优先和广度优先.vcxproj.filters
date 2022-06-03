@@ -21,5 +21,11 @@
     <ClCompile Include="113-路径总和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="129-求根节点到叶子结点数字之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="112-路径总和I.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
