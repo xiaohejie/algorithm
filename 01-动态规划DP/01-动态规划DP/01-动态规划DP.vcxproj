@@ -146,6 +146,8 @@
     <ClCompile Include="04-不同路径.cpp" />
     <ClCompile Include="38-外观数列.cpp" />
     <ClCompile Include="64-最小路径和.cpp" />
+    <ClCompile Include="70-爬楼梯.cpp" />
+    <ClCompile Include="91-解码方法.cpp" />
     <ClCompile Include="980-不同路径III.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
