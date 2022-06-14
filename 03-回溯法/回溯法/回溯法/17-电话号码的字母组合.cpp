@@ -20,7 +20,7 @@ public:
             char digit = digits[index];
             //从哈希表中找出对应的字符串
             const string str = phoneMap.at(digit);
-            //遍历该字符串
+            //遍历该字符串：使用回溯法
             for (auto& ch : str) {
                 ans.push_back(ch);
                 backtrack(res, digits, ans, index + 1, phoneMap);
@@ -44,6 +44,7 @@ public:
             {'9',"wxyz"}
         };
         string ans;     //子值
+        //参数：res：答案，digits：号码，ans：子值，phoneMap：对应表
         backtrack(res,digits,ans,0,phoneMap);
         return res;
 

@@ -45,5 +45,8 @@
     <ClCompile Include="70-爬楼梯.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="926. 将字符串翻转到单调递增.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

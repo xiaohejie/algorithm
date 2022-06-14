@@ -148,6 +148,7 @@
     <ClCompile Include="64-最小路径和.cpp" />
     <ClCompile Include="70-爬楼梯.cpp" />
     <ClCompile Include="91-解码方法.cpp" />
+    <ClCompile Include="926. 将字符串翻转到单调递增.cpp" />
     <ClCompile Include="980-不同路径III.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

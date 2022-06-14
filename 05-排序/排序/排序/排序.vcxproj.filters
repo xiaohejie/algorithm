@@ -30,6 +30,21 @@
     <ClCompile Include="插入排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="875-爱吃香蕉的珂珂.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="00-二分查找一般步骤.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="497. 非重叠矩形中的随机点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29-两数相除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2300-药水和咒语的成功对数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="qsort和qsearch.h">

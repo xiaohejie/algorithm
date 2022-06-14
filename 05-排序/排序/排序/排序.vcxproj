@@ -139,6 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="00-二分查找一般步骤.cpp" />
+    <ClCompile Include="2300-药水和咒语的成功对数.cpp" />
+    <ClCompile Include="29-两数相除.cpp" />
+    <ClCompile Include="497. 非重叠矩形中的随机点.cpp" />
+    <ClCompile Include="875-爱吃香蕉的珂珂.cpp" />
     <ClCompile Include="qsort和bsearch.cpp" />
     <ClCompile Include="堆排序.cpp" />
     <ClCompile Include="归并排序.cpp" />
