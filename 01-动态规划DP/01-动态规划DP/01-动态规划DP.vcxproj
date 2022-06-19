@@ -143,12 +143,13 @@
     <ClCompile Include="01.cpp" />
     <ClCompile Include="02.cpp" />
     <ClCompile Include="03-买卖股票的最佳时机.cpp" />
-    <ClCompile Include="04-不同路径.cpp" />
+    <ClCompile Include="62-不同路径.cpp" />
     <ClCompile Include="38-外观数列.cpp" />
     <ClCompile Include="64-最小路径和.cpp" />
     <ClCompile Include="70-爬楼梯.cpp" />
     <ClCompile Include="91-解码方法.cpp" />
     <ClCompile Include="926. 将字符串翻转到单调递增.cpp" />
+    <ClCompile Include="97-交错字符串.cpp" />
     <ClCompile Include="980-不同路径III.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

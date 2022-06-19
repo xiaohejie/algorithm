@@ -24,9 +24,6 @@
     <ClCompile Include="03-买卖股票的最佳时机.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04-不同路径.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="64-最小路径和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -46,6 +43,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="926. 将字符串翻转到单调递增.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="97-交错字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="62-不同路径.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
