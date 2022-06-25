@@ -151,6 +151,7 @@
     <ClCompile Include="926. 将字符串翻转到单调递增.cpp" />
     <ClCompile Include="97-交错字符串.cpp" />
     <ClCompile Include="980-不同路径III.cpp" />
+    <ClCompile Include="剑指 Offer II 091. 粉刷房子.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -51,5 +51,8 @@
     <ClCompile Include="62-不同路径.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="剑指 Offer II 091. 粉刷房子.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
