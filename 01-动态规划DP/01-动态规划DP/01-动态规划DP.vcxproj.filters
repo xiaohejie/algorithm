@@ -54,5 +54,8 @@
     <ClCompile Include="剑指 Offer II 091. 粉刷房子.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="376-摆动排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
