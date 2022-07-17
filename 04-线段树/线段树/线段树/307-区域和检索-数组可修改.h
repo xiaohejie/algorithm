@@ -17,6 +17,7 @@ class NumArray {
 private:
 	vector<int> tree;
 	int n;
+	//构造线段树
 	void buildTree(vector<int>& nums, int node, int start, int end) {
 		//递归中止条件
 		if (start == end) {
@@ -33,6 +34,7 @@ private:
 			tree[node] = tree[leftNode] + tree[rightNode];
 		}
 	}
+	//更新状态树
 	void updateTree(int node, int start, int end, int index, int val) {
 		//递归中止
 		if (start == end) {
@@ -51,6 +53,7 @@ private:
 		}
 		tree[node] = tree[leftNode] + tree[rightNode];
 	}
+	//给状态数的结点段求和
 	int queryTree(int node, int start, int end, int right, int left) {
 		if (end < left || start > right) {
 			return 0;

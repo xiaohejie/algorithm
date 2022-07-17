@@ -22,7 +22,7 @@ public:
 		for (int i = 2; i < n; i++) {
 			//根据i-1计算i
 			string tmpStr;
-			string prev = ans[i - 1];
+			string prev = ans[i - 1];		//记录前一个字符串
 			char curr = prev[0];
 			//遍历ans[i - 1]
 			int count = 1;
