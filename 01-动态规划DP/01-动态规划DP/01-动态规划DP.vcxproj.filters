@@ -72,5 +72,8 @@
     <ClCompile Include="122买卖股票的最佳时机 II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="63-不同路径2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

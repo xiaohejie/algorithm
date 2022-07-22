@@ -150,6 +150,7 @@
     <ClCompile Include="53. 最大子数组和.cpp" />
     <ClCompile Include="62-不同路径.cpp" />
     <ClCompile Include="38-外观数列.cpp" />
+    <ClCompile Include="63-不同路径2.cpp" />
     <ClCompile Include="64-最小路径和.cpp" />
     <ClCompile Include="70-爬楼梯.cpp" />
     <ClCompile Include="873. 最长的斐波那契子序列的长度.cpp" />

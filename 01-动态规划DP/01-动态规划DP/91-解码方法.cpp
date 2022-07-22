@@ -12,16 +12,16 @@ class Solution {
 public:
 	int numDecodings(string s) {
 		//设置动态容器
-		int len = s.size();
+		int len = s.length();
 		vector<int> f(len + 1);
 		//进行初始化
-		f[0] = 1;		//当s为空时
+		f[0] = 1;
 		s = ' ' + s;
 		//状态转移方程
-		for (int i = 1; i <= len; i++) {
-			int a = s[i] - '0';				//个位数
-			int b = (s[i - 1] - '0') * 10 + a;	//十几的时候
-			if (a > 0 && a <= 9) {
+		for (int i = 1; i <= len; i++ ) {
+			int a = s[i] - '0';
+			int b = (s[i - 1] - '0') * 10 + s[i] - '0';
+			if (a > 0 && a < 10 ) {
 				f[i] = f[i - 1];
 			}
 			if (b >= 10 && b <= 26) {
