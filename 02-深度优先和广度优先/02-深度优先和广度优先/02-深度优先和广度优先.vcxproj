@@ -143,9 +143,8 @@
     <ClCompile Include="112-路径总和I.cpp" />
     <ClCompile Include="113-路径总和.cpp" />
     <ClCompile Include="129-求根节点到叶子结点数字之和.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="123.h" />
+    <ClCompile Include="437. 路径总和 III.cpp" />
+    <ClCompile Include="473. 火柴拼正方形.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

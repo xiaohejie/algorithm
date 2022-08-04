@@ -24,6 +24,7 @@ void heapify(int* tree, int n, int i) {
 	}
 }
 
+//构建大根堆
 void buildHeap(int* tree, int n) {
 	int lastNode = n - 1;
 	int parent = (lastNode - 1) / 2;

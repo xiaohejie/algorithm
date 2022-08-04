@@ -143,6 +143,12 @@
     <ClInclude Include="307-区域和检索-数组可修改.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="699. 掉落的方块.cpp" />
+    <ClCompile Include="715. Range 模块.cpp" />
+    <ClCompile Include="729. 我的日程安排表 I.cpp" />
+    <ClCompile Include="731. 我的日程安排表 II.cpp" />
+    <ClCompile Include="732. 我的日程安排表 III.cpp" />
+    <ClCompile Include="933. 最近的请求次数.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

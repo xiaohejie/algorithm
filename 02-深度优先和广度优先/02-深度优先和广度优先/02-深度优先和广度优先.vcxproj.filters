@@ -27,10 +27,11 @@
     <ClCompile Include="112-路径总和I.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="123.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="437. 路径总和 III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="473. 火柴拼正方形.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

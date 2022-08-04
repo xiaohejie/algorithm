@@ -15,7 +15,7 @@ public:
 		}
 		if (grid[i][j] == 2) {
 			//表示走到了终点，需要判断是否遍历完所有的空方格
-			if (count == -1) {
+			if (count == -1) {		//count==-1是因为结束放个表示为2
 				ans++;
 			}
 			return;

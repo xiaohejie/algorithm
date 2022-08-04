@@ -26,5 +26,23 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="729. 我的日程安排表 I.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="731. 我的日程安排表 II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="732. 我的日程安排表 III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="715. Range 模块.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="933. 最近的请求次数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="699. 掉落的方块.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
