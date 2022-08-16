@@ -11,6 +11,33 @@ using namespace std;
 	对于给定的输入，保证和为 target 的不同组合数少于 150 个。
 
 */
+class Solution1 {
+	vector<vector<int>> ans;
+	vector<int> res;
+	void dfs(vector<int>& candidates, int target, int sum, int index) {
+		if (target == sum) {
+			ans.push_back(res);
+			return;
+		}
+		if (sum > target) {
+			return;
+		}
+		for (int i = index; i < candidates.size(); i++) {
+			sum += candidates[i];
+			res.push_back(candidates[i]);
+			dfs(candidates, target, sum, i);			//这里要注意递归的index
+			sum -= candidates[i];
+			res.pop_back();
+		}
+	}
+public:
+	vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+		int sum = 0;
+		dfs(candidates, target, sum, 0);
+		return ans;
+	}
+};
+
 class Solution {
 public:
 	vector<vector<int>>res; //记录答案

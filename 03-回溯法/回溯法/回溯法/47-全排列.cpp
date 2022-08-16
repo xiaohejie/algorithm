@@ -6,6 +6,15 @@ using namespace std;
 	全排列（全排列1和2还有组合）：
 		多理解理解
 */
+class Solution1 {
+	vector<vector<int>> ans;
+
+public:
+	vector<vector<int>> permuteUnique(vector<int>& nums) {
+		
+	}
+};
+
 class Solution {
 public:
 	vector<vector<int>> res;

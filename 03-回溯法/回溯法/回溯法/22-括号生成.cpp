@@ -15,6 +15,35 @@ using namespace std;
 			回溯
 		}
 */
+class Soultion1 {
+	vector<string> ans;
+	void dfs(int left, int right, string s, int n) {
+		if (left + right == 2 * n) {
+			ans.push_back(s);
+			return;
+		}
+		//左括号不够
+		if (left < n) {
+			s += "(";
+			dfs(left+1, right, s, n);
+			//进行回溯
+			s.pop_back();
+		}
+		//右括号少于左括号
+		if (right < left) {
+			s += ")";
+			dfs(left, right + 1, s, n);
+			//进行回溯
+			s.pop_back();
+		}
+	}
+public:
+	vector<string> generateParenthesis(int n) {
+		string s = "";
+		dfs(0, 0, s, n);
+		return ans;
+	}
+};
 class Solution {
 	vector<string> ans;
 public:
